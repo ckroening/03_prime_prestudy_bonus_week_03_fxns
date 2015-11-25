@@ -16,4 +16,4 @@ number + i;
 return number;
 }
 
-firstFunction(secondFunction(solveThis));
+firstFunction(secondFunction(solveThis(number)));
