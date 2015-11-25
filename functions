@@ -1,0 +1,19 @@
+function firstFunction(number) {
+number * 5;
+(number + 4) * 3;
+return number;
+}
+
+function secondFunction(number) {
+number - 2;
+return number;
+}
+
+function solveThis(number) {
+number + 8;
+for (var i=0;i<=3;i++) {
+number + i;
+return number;
+}
+
+firstFunction(secondFunction(solveThis));
